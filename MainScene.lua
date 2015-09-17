@@ -5,6 +5,7 @@ local MyScene = class("MyScene", function ()
     return display.newScene("MyScene")  
 end)  
    local bone
+   --xiugaigaigaigiagiaigiagiai
 function MyScene:ctor()   
      sprite=ccs.ArmatureDataManager:getInstance():addArmatureFileInfo("zhaoyun.ExportJson")
      sprite = ccs.Armature:create("zhaoyun")
